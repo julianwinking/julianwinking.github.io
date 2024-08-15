@@ -9,9 +9,9 @@ html {
 body {
     font-family: 'Consolas', 'Courier New', monospace;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.1;
     color: #333;
-    padding: 10vh 10vw 0 10vw;
+    padding: 13vh 10vw 0 10vw;
     margin: 0;
     box-sizing: border-box;
 }
@@ -42,7 +42,7 @@ body {
         padding: 10vh 10vw;
         font-size: 20px;
     }
-    
+
     .social-icon img {
         margin-bottom: 1rem;
         margin-right: 0;
