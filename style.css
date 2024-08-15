@@ -8,3 +8,19 @@ body {
     padding-right: 10vw;
     padding-top: 10vh;
 }
+
+.social-icons {
+    display: flex;
+    align-items: left;
+    margin-top: 40px;
+}
+
+.social-icon {
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+}
