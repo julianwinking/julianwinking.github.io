@@ -31,6 +31,7 @@ body {
     height: auto;
     margin-right: 2rem;
     transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+    fill: #333;
 }
 
 .social-icon img:hover {
