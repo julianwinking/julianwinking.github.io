@@ -1,11 +1,14 @@
+html {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background-size: cover;
+    min-height: 100vh;
+}
+
 body {
     font-family: Consolas, monaco, monospace;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-    background-size: cover;
-    min-height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-top: 10vh;
