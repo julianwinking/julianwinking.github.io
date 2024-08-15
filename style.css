@@ -2,23 +2,24 @@ html {
     background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     background-size: cover;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: Consolas, monaco, monospace;
+    font-family: 'Consolas', 'Courier New', monospace;
     font-size: 14px;
-    line-height: 1.42857143;
+    line-height: 1.5;
     color: #333;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 10vh;
-    margin: 0px;
+    padding: 10vh 10vw 0 10vw;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .social-icons {
     display: flex;
-    align-items: left;
-    margin-top: 40px;
+    align-items: flex-start; /* Correct alignment direction */
+    margin-top: 2.5rem;
 }
 
 .social-icon {
@@ -28,7 +29,25 @@ body {
 .social-icon img {
     width: 23px;
     height: auto;
-    margin-right: 30px;
-    color: #333
+    margin-right: 2rem;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
 }
 
+.social-icon img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 5vh 5vw;
+        font-size: 18px;
+    }
+    .social-icons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .social-icon img {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}
