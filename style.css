@@ -23,4 +23,5 @@ body {
     width: 40px;
     height: auto;
     margin-right: 20px;
+    filter: brightness(100%);
 }
