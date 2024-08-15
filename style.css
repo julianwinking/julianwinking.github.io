@@ -26,9 +26,8 @@ body {
 }
 
 .social-icon img {
-    width: 30px;
+    width: 20px;
     height: auto;
     margin-right: 30px;
-    filter: brightness(70%);
 }
 
