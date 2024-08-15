@@ -5,6 +5,7 @@ body {
     color: #333;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     background-size: cover;
+    height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
     padding-top: 10vh;
