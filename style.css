@@ -24,36 +24,19 @@ body {
 }
 
 .social-icon {
-    position: relative;
     display: inline-block;
-    margin: 5px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.social-icon::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: transparent;
-    border: 3px solid transparent;
-    transition: all 0.3s ease-in-out;
-    z-index: -1; /* Make sure the background is behind the icon */
-}
-
-.social-icon:hover::before {
-    border-color: #ffffff00;
-    background-color: #d5d5d5; /* Background color on hover */
-    transform: scale(1.1); /* Slight enlargement of the border */
 }
 
 .social-icon img {
     width: 23px;
     height: auto;
-    transition: transform 0.3s ease-in-out;
+    margin-right: 2rem;
+    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+    fill: #333;
 }
 
-.social-icon:hover img {
-    transform: scale(1.1);
+.social-icon img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 @media (max-width: 768px) {
