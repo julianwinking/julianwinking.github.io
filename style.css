@@ -31,7 +31,7 @@ body {
     width: 23px;
     height: auto;
     margin-right: 2rem;
-    transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
     fill: #333;
     padding: 6px;
     background: #ffffff00;
@@ -39,7 +39,7 @@ body {
 
 .social-icon img:hover {
     transform: scale(1.1); /* Slightly enlarge on hover */
-    background: #d1d1d1;
+    background: #e2e1e1;
     border-radius: 5px;
 }
 
