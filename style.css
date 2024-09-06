@@ -26,7 +26,7 @@ body {
 .social-icon {
     position: relative;
     display: inline-block;
-    margin-right: 2rem;
+    margin: 2rem;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -34,16 +34,13 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    border: 2px solid transparent;
-    border-radius: 50%;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
     z-index: -1; /* Make sure the background is behind the icon */
 }
 
 .social-icon:hover::before {
-    border-color: #333; /* Border color on hover */
-    background-color: #e0e0e0; /* Background color on hover */
+    background-color: #b8b8b8; /* Background color on hover */
     transform: scale(1.2); /* Slight enlargement of the border */
 }
 
@@ -51,7 +48,6 @@ body {
     width: 23px;
     height: auto;
     transition: transform 0.3s ease-in-out;
-    border-radius: 50%;
 }
 
 .social-icon:hover img {
