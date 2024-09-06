@@ -33,10 +33,14 @@ body {
     margin-right: 2rem;
     transition: transform 0.2s ease-in-out; /* Smooth hover effect */
     fill: #333;
+    padding: 6px;
+    background: #ffffff00;
 }
 
 .social-icon img:hover {
     transform: scale(1.1); /* Slightly enlarge on hover */
+    background: #d1d1d1;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
