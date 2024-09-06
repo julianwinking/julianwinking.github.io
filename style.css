@@ -35,13 +35,15 @@ body {
     position: absolute;
     inset: 0;
     background-color: transparent;
+    border: 3px solid transparent;
     transition: all 0.3s ease-in-out;
     z-index: -1; /* Make sure the background is behind the icon */
 }
 
 .social-icon:hover::before {
-    background-color: #b8b8b8; /* Background color on hover */
-    transform: scale(1.2); /* Slight enlargement of the border */
+    border-color: #ffffff;
+    background-color: #d5d5d5; /* Background color on hover */
+    transform: scale(1.1); /* Slight enlargement of the border */
 }
 
 .social-icon img {
